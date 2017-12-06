@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+  height: 637px;
+  background-image: url("images/poke-wall.jpg");
+  background-attachment: fixed;
+}
+
+.App-logo {
+  width: 280px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App-header {
+  background: linear-gradient(to bottom right,rgba(200,0,0,0), black);
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+input.poke-search{
+  width: 200px;
+  height: 25px;
+  margin-left: 10px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid #cc0000;
+ }
+
+ .poke-search:hover {
+    border: 2px solid #999;
+}
+
+.btn-search{
+  width: 80px;
+  height: 37px;
+  padding: 8px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  background-color: #cc0000;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn-save{
+  width: 100px;
+  height: 45px;
+  padding: 8px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #cc0000;
+  color: white;
+  cursor: pointer;
+  margin-left: 100px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn-search:hover,.btn-save:hover {
+    background-color: #000;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Pokedex-container{
+  height: 460px;
+  width: 300px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.Pokedex-search{
+  width: 350px;
+  height: 460px;
+  background-color: #4d4d4d;
+  position: absolute;
+  border-radius:3px;
+
+  background-image: url("images/Pokemon-blackx.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 350px 460px;
+
+
+}
+
+.Pokedex-data{
+  width: 630px;
+  height: 460px;
+  position: absolute;
+  margin-left: 355px;
+  border-radius:3px;
+  opacity: 0.9;
+
+  background-image: url("images/pokemon_yxx.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 630px 460px;
+}
+
+.pokeball-logo{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.pokemon-name{
+  margin-top: 170px;
+  margin-left: 5px;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.pokemon-moves{
+  width: 130px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 80px;
+  color: black;
+}
+
+h4.pokemon-moves{
+  margin-left:-400px;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+.pokemon-movesList, .pokemon-typeList, .pokemon-abilitiesList{
+  line-height: 3px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  text-transform:capitalize;
+  font-variant:small;
+  font-weight:lighter;
+  font-family: "Verdana", sans serif;
+}
+
+.pokemon-types{
+  width: 130px;
+  height:auto;
+  margin-left: 50px;
+  margin-top: 120px;
+  color: black;
+  position: absolute;
+}
+
+
+.pokemon-Id{
+  margin-top: 35px;
+  margin-left: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.pokemon-stats{
+  width: 160px;
+  height: auto;
+  margin-top: -125px;
+  margin-left: 460px;
+  position: absolute;
+}
+
+.pokemon-statsList{
+  line-height: 3px;
+  margin-top: 13px;
+  color: white;
+  text-align: left;
+  margin-left: 6px;
+  text-transform:capitalize;
+  font-variant:small;
+  font-weight:lighter;
+  font-family: "Verdana", sans serif;
+  font-size: 12px;
+}
+
+.pokemon-abilities{
+  width: 130px;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 470px;
+  position: absolute;
+}
+
+
+.pokemon-img{
+  margin-left: 270px;
+  border-image: none;
+  background-size: 100%;
+  position: absolute;
+}
+
+.pokemon-img:before {
+  content: " ";
+  font-size: 1000px;
+  position: absolute;
+  background-image: url("./images/pokeball.gif");
+
+}
+.pokenote-logo{
+  width:220px;
+  height: 120px;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.Pokedex-note{
+  width: 360px;
+  height: 460px;
+  position: absolute;
+  margin-left: 990px;
+  border-radius:3px;
+
+  background-image: url("images/Pokemon-white.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 370px 460px;
+}
+
+.pokenote-textarea {
+  width: 65%;
+  height: 110px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-left: 110px;
+  margin-top: 95px;
+  border: 2px solid #cc0000;
+  border-bottom-right-radius: 40px;
+}
+
+.poke-note{
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  overflow:auto;
+}
+
+h5.poke-note{
+  width: 100px;
+  height: 100px;
+}
+
+.pikarun-container{
+  height: 50px;
+  position: relative;
+  width: 100px;
+  background-color: none;
+  margin-left: 110px;
+  margin-top: -50px;
+}
+
+.noteList{
+  text-align:left;
+  width: auto;
+  height: 180px;
+  background-color: #d9d9d9;
+  color: #404040;
+  margin-top:10px;
+  margin-left: 115px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow: auto;
+  font-size: 13px;
+  font-variant:small;
+  font-weight:lighter;
+  font-family: "Verdana", sans serif;
+}
+
+li.noteList{
+  margin-left:25px;
+  height: auto;
+}
+
+.pikarun-container img{
+ background-image: url("images/pikachu.gif");
+  background-repeat: no-repeat;
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  margin:0;
+  line-height: 50px;
+  text-align: center;
+  -moz-transform:translateX(-100%);
+  -webkit-transform:translateY(-100%);
+  transform:translate(-100%);
+
+  -moz-animation:example1 10s linear infinite;
+  -webkit-animation:example1 10s  linear infinite;
+  animation:example1 15s linear infinite;
+
+}
+
+@-moz-keyframes example1{
+  0% {-moz-transform:translateX(100%);}
+  100%{-moz-transform:translateX(100%)};
+}
+
+@-webkit-keyframes example1{
+  0% {-webkit-transform:translateX(100%);}
+  100% {-webkit-transform:translateX(100%);}
+}
+
+@keyframes example1{
+  0% {
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);
+  transform:translate(100%);
+  }
+  100% {
+  -moz-transform:translateX(-1250%);
+  -webkit-transform:translateX(-1250%);
+  transform: translate(-1250%);
+  }
+}
